@@ -9,10 +9,10 @@ import cv2
 mixer.init()
 mixer.music.load("music.wav")
 
-account_sid = "ACe95f0e8ac35d26cd8216478fa416c42c"
-auth_token = "2ed63eec94cb3992825813c2c7ea5b02"
-whatsapp_from = "whatsapp:+14155238886"
-whatsapp_to = "whatsapp:+919842769255"
+account_sid = "**************"
+auth_token = "2**************"
+whatsapp_from = "whatsapp:**********"
+whatsapp_to = "whatsapp:**********"
 
 def send_whatsapp_alert():
     client = Client(account_sid, auth_token)
